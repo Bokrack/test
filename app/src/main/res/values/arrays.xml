@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_sp_array">
+        <item>선    택</item>
+        <item>IT개론</item>
+        <item>컴퓨터문서작성</item>
+        <item>문제해결기초</item>
+        <item>C프로그래밍</item>
+        <item>이산수학</item>
+        <item>자료구조론</item>
+        <item>웹기초언어</item>
+        <item>객체지향프로그래밍</item>
+        <item>데이터베이스프로그래밍</item>
+        <item>데이터통신</item>
+        <item>운영체제론</item>
+        <item>기초프로젝트</item>
+        <item>실무프로젝트</item>
+        <item>컴퓨터구조</item>
+    </string-array>
+
+    <string-array name="title_info_array">
+        <item>IT개론</item>
+        <item>컴퓨터문서작성</item>
+        <item>문제해결기초</item>
+        <item>C프로그래밍</item>
+        <item>이산수학</item>
+        <item>자료구조론</item>
+        <item>웹기초언어</item>
+        <item>객체지향프로그래밍-기초프로젝트</item>
+        <item>데이터베이스프로그래밍</item>
+        <item>데이터통신</item>
+        <item>운영체제론</item>
+        <item>실무프로젝트</item>
+        <item>컴퓨터구조</item>
+    </string-array>
+
+    <integer-array name="image_info_array">
+        <item>@drawable/book01</item>
+        <item>@drawable/book02</item>
+        <item>@drawable/book03</item>
+        <item>@drawable/book04</item>
+        <item>@drawable/book05</item>
+        <item>@drawable/book06</item>
+        <item>@drawable/book07</item>
+        <item>@drawable/book08</item>
+        <item>@drawable/book09</item>
+        <item>@drawable/book10</item>
+        <item>@drawable/book11</item>
+        <item>@drawable/book12</item>
+        <item>@drawable/book13</item>
+    </integer-array>
+
+    <string-array name="content_info_array">
+        <item>컴퓨터와 IT기술의 이해 / 최윤철 외 지음 / 생능출판 / 2016 </item>
+        <item>엑셀 2013(기본기능부터 실무활용까지) / 하숙정 지음 / 한빛미디어 / 2015</item>
+        <item>RAPTOR를 활용한 순서도 기반 프로그래밍(개정판) / 김대식, 주낙근 공저 / 정익사 / 2015</item>
+        <item>어서와 C언어는 처음이지! / 그레그 페리, 딘 밀러 지음, 천인국 옮김 / 인피니티북스 / 2015</item>
+        <item>이산수학(예제중심의 이산수학) / 조병호 지음 / 정일 / 2006</item>
+        <item>C언어로 쉽게 풀어쓴 자료구조 / 천인국, 공용해 지음 / 생능출판사 / 2014</item>
+        <item>HTML5 웹 프로그래밍 입문 / 임순범, 박희민, 지음 / 생능출판사 / 2016</item>
+        <item>명품 JAVA Programming(개정판) / 황기태, 김효수 지음 / 생능출판사 / 2013</item>
+        <item>데이터베이스 배움터(ORACLE을 기반으로 하는) / 홍의경 지음 / 생능출판사 / 2011</item>
+        <item>[원서]Data Communications and Networking 5th / Behrouz Forouzan 지음 / McGRAW-HILL / 2013</item>
+        <item>운영체제(그림으로 배우는 구조와 원리) / 구현회 지음 / 한빛아카데미 / 2016</item>
+        <item>그림으로 쉽게 설명하는 안드로이드 프로그래밍 개정3판 / 천인국 지음 / 생능출판사 / 2015</item>
+        <item>컴퓨터구조론(개정판) / 김종현 지음 / 생능출판사 / 2014</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="link_info_array">
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=10319527</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=8796229</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=9020602</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=9220094</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=2088879</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=6068296</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=7273672</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=7145227</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=6357057</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=9310110</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=10786045</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=9410203</item>
+        <item>http://m.book.naver.com/bookdb/book_detail.nhn?biblio.bid=7413895</item>
+    </string-array>
+
+    <string-array name="setting_list">
+        <item>만든이 정보</item>
+        <item>문의메일 보내기</item>
+    </string-array>
+</resources>

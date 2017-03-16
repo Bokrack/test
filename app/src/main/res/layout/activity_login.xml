@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    tools:context="com.example.user.bookdream.LoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="@string/enter_id"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textView_id"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="370dp"
+        android:textColor="@color/BLACK"
+        android:textColorHint="@color/GRAY"
+        android:padding="10dp"
+        android:background="@android:color/background_light" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/BLACK"
+        android:textColorHint="@color/GRAY"
+        android:hint="@string/enter_pw"
+        android:id="@+id/textView_pw"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@android:color/background_light" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:background="@drawable/round_btn"
+            android:text="@string/iog_in"
+            android:textSize="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:onClick="enter_log_in"
+            android:textColor="@color/WHITE"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <CheckBox
+            android:id="@+id/auto_login_check"
+            android:text="자동 로그인"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/joining"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/BLACK"
+        android:clickable="true"
+        android:id="@+id/join"/>
+
+</LinearLayout>

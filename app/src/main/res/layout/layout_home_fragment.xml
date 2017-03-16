@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homeswipe_layout"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회원정보"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:background="@drawable/round_btn"
+                android:textColor="@color/WHITE"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:weightSum="3"
+                android:orientation="vertical"
+                android:background="@drawable/round"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:text="학번 : "
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/id_tx"
+                    android:gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="이름 : "
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/name_tx"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="이메일 : "
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/email_tx"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재현황"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:background="@drawable/round_btn"
+                android:textColor="@color/WHITE"
+                android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:background="@drawable/round"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <TextView
+                android:text="요청 현황 : "
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/request_tx"
+                android:gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="공급 현황 : "
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/supply_tx"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="드림 현황 : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/dream_tx"/>
+
+                <TextView
+                    android:text="DREAM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dream_btn"
+                    android:clickable="true"
+                    android:background="@drawable/round_btn"
+                    android:textColor="@color/WHITE"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <TextView
+                android:text="로그아웃"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:textColor="@color/WHITE"
+                android:id="@+id/logout_btn"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

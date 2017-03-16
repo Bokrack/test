@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <TextView
+        android:text="각각의 정보를 모두 입력해주세요."
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/dialog_tx"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:weightSum="5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="-20dp"
+        android:padding="0dp">
+
+        <TextView
+            android:text="날짜 : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx0"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+
+        <DatePicker
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker"
+            android:layout_weight="4"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:weightSum="5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="-20dp"
+        android:padding="0dp">
+
+        <TextView
+            android:text="시간 : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx1"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+
+        <TimePicker
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePicker"
+            android:layout_weight="4"
+            android:timePickerMode="spinner"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="장소 : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx2"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edit_where"
+            android:layout_weight="2"
+            android:maxLength="16"
+            android:hint="ex)6206" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="내용 : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx3"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edit_content"
+            android:layout_weight="2"
+            android:maxLength="16"
+            android:hint="덧붙이고 싶은 말" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:text="연락 가능 번호 :"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx4"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_weight="2"
+            android:maxLength="13"
+            android:hint="010-1234-5678" />
+    </LinearLayout>
+</LinearLayout>

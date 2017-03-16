@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorTextButton">#3247B2</color>
+    <color name="colorAccent">#3247B2</color>
+    <color name="BLACK">#000000</color>
+    <color name="GRAY">#BDBDBD</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="GREEN">#2DB400</color>
+    <color name="customErrorColor">#FF0000</color>
+</resources>

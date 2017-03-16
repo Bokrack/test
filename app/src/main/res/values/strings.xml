@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Book:DREAM</string>
+    <string name="enter_id">학번 입력</string>
+    <string name="enter_pw">비밀번호 입력</string>
+    <string name="iog_in">LOG IN</string>
+    <string name="joining">회원가입</string>
+    <string name="find_info">ID/PW찾기</string>
+    <string name="writing">글 쓰기</string>
+    <string name="refresh">새로고침</string>
+    <string name="title">과목</string>
+    <string name="type">타입</string>
+    <string name="user">글쓴이</string>
+    <string name="renting">DREAM</string>
+    <string name="giving">나눠주기</string>
+    <string name="state">책 상태</string>
+    <string name="uploading">갤러리</string>
+    <string name="content">글 내용</string>
+    <string name="photo">사진 찍기</string>
+    <string name="want_period">필요기간</string>
+    <string name="request">DREAM 신청하기</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="info_content">책 정보</string>
+    <string name="title_prompt">과목을 선택하세요.</string>
+    <string name="period_prompt">필요 기간을 선택하세요.</string>
+    <string name="demand_content">해당 과목 전공 서적에 대해 설명을 써주세요. (최대 50자)\n\n\n\n\n\n\n\n\n\n\n\n\n</string>
+    <string name="join_id">학번</string>
+    <string name="join_pw">비밀번호</string>
+    <string name="join_pw_check">비밀번호 확인</string>
+    <string name="join_check">중복확인</string>
+    <string name="join_name">이름</string>
+    <string name="join_email">메일 주소</string>
+    <string name="message">완료 버튼을 누르면 더 이상 알람은 오지 않습니다. \n 이 점 유의하시고 내용 확인해주세요.</string>
+    <string name="mailContent">문의할 내용을 써주세요. (최대 50자)\n\n\n\n\n\n\n\n\n\n\n\n\n</string>
+    <string name="madeBy">"\n\n성공회대학교 글로컬IT학과\n2016-2 실무프로젝트\nBook:DREAM Project\n\n200934013 서동형\n201134031 최형근\n201434033 이보라미"</string>
+    <string name="ip_address">192.168.35.130</string>
+</resources>

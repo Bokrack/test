@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:weightSum="13">
+        <TextView
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/BLACK"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/BLACK"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:textSize="20dp"
+            android:text="과목명"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/BLACK"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="20dp"
+            android:text="글쓴이"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/BLACK"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="20dp"
+            android:text="기간"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/swipe_layout"
+        android:layout_weight="18">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/demand_listView" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:text="@string/writing"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:textSize="20dp"
+        android:textColor="@color/WHITE"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/round_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:id="@+id/demand_write" />
+</LinearLayout>

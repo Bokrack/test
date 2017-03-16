@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_join"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:gravity="center_vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/join_id"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/MyTextInputLayoutErrorText"
+            android:id="@+id/hint_join_id">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+                android:id="@+id/enter_join_id"
+                android:gravity="center"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/join_check"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:id="@+id/join_check_id"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/WHITE"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/hint_join_pw"
+        android:hint="@string/join_pw"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/MyTextInputLayoutErrorText"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/enter_join_pw"
+            android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/hint_join_pw_check"
+        android:hint="@string/join_pw_check"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/MyTextInputLayoutErrorText"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/enter_join_pw_check"
+            android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/hint_join_name"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/MyTextInputLayoutErrorText"
+        android:hint="@string/join_name"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:id="@+id/enter_join_name"
+            android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/hint_join_email"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/MyTextInputLayoutErrorText"
+        android:hint="@string/join_email"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/enter_join_email"
+            android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
